@@ -1,0 +1,22 @@
+{
+  "name": "space-tourism-website-main",
+  "version": "1.0.0",
+  "description": "A frontend mentor challenge where i have to build a website about space tourism.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\"C:\\Users\\Development\\Documents\\GitHub\\space-tourism-website-main\\.git\""
+  },
+  "keywords": [
+    "frontend",
+    "mentor",
+    "web",
+    "development",
+    "space"
+  ],
+  "author": "Frees Mike",
+  "license": "ISC"
+}
