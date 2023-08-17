@@ -11,12 +11,17 @@
     "url": "\"C:\\Users\\Development\\Documents\\GitHub\\space-tourism-website-main\\.git\""
   },
   "keywords": [
-    "frontend",
-    "mentor",
-    "web",
-    "development",
+    "frontend mentor",
+    "web development",
     "space"
   ],
   "author": "Frees Mike",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "sass": "^1.65.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
 }
