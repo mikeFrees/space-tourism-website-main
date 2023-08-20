@@ -10,6 +10,8 @@
   </head>
 
   <body>
+    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"><g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#FFF"/><path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"/></g></svg>
+    <hr>
     <nav>
       <ul>
         <li><a href="../index.html">00 Home</a></li>
@@ -19,23 +21,39 @@
       </ul>
     </nav>
 
-    01 Pick your destination
+    <main>
+      <h5>01 Pick your destination</h5>
 
-    Moon
-    Mars
-    Europa
-    Titan
+      <picture>
+        <source type="image/webp" srcset="./assets/destination/image-mars.webp">
+        <source type="image/png" srcset="./assets/destination/image-mars.png">
+        <img src="./assets/destination/image-mars.png" alt="A brown and dusty looking planet with multiple craters on its surface. There is a shadow over the planet that goes up from the bottom right. ">
+      </picture>
+      
+      <nav>
+        <ul>
+          <li><a href="./destination-moon.html">Moon</a></li>
+          <li class="Active">Mars</li>
+          <li><a href="./destination-europa.html">Europa</a></li>
+          <li><a href="./destination-titan.html">Titan</a></li>
+        </ul>
+      </nav>
 
-    Mars
+      <h2>Mars</h2>
 
-    Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, 
-    the tallest planetary mountain in our solar system. It’s two and a half times 
-    the size of Everest!
+      <p>
+        Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, 
+        the tallest planetary mountain in our solar system. It’s two and a half times 
+        the size of Everest!
+      </p>
 
-    Avg. distance
-    225 mil. km
+      <hr>
 
-    Est. travel time
-    9 months
+      <div class="Subheading-1">Avg. distance</div>
+      <div class="Subheading-2">225 mil. km</div>
+
+      <div class="Subheading-1">Est. travel time</div>
+      <div class="Subheading-2">9 months</div>
+    </main>
   </body>
 </html>

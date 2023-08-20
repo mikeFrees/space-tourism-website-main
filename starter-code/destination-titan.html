@@ -10,6 +10,8 @@
   </head>
 
   <body>
+    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"><g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#FFF"/><path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"/></g></svg>
+    <hr>
     <nav>
       <ul>
         <li><a href="../index.html">00 Home</a></li>
@@ -19,23 +21,39 @@
       </ul>
     </nav>
 
-    01 Pick your destination
+    <main>
+      <h5>01 Pick your destination</h5>
 
-    Moon
-    Mars
-    Europa
-    Titan
+      <picture>
+        <source type="image/webp" srcset="./assets/destination/image-titan.webp">
+        <source type="image/png" srcset="./assets/destination/image-titan.png">
+        <img src="./assets/destination/image-titan.png" alt="A mustard colored planet with a smooth surface. There is a shadow over the planet that goes up from the bottom right. ">
+      </picture>
+      
+      <nav>
+        <ul>
+          <li><a href="./destination-moon.html">Moon</a></li>
+          <li><a href="./destination-mars.html">Mars</a></li>
+          <li><a href="./destination-europa.html">Europa</a></li>
+          <li class="Active">Titan</li>
+        </ul>
+      </nav>
 
-    Titan
+      <h2>Titan</h2>
 
-    The only moon known to have a dense atmosphere other than Earth, Titan 
-    is a home away from home (just a few hundred degrees colder!). As a 
-    bonus, you get striking views of the Rings of Saturn.
+      <p>
+        The only moon known to have a dense atmosphere other than Earth, Titan 
+        is a home away from home (just a few hundred degrees colder!). As a 
+        bonus, you get striking views of the Rings of Saturn.
+      </p>
 
-    Avg. distance
-    1.6 bil. km
+      <hr>
 
-    Est. travel time
-    7 years
+      <div class="Subheading-1">Avg. distance</div>
+      <div class="Subheading-2">1.6 bil. km</div>
+
+      <div class="Subheading-1">Est. travel time</div>
+      <div class="Subheading-2">7 years</div>
+    </main>
   </body>
 </html>
