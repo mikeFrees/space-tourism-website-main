@@ -1,16 +1,33 @@
-@import "parameters";
+@mixin mediaBackground($url) {
+    background: center / cover no-repeat url($url);
+  }
 
-body {
-    background: cover url(../images/home/background-home-desktop.jpg);
-    &.Destination {
-        background: url(../images/destination/background-destination-desktop.jpg);
+@mixin screenType($type) {
+    body {
+        height: 100vh;
+        @include mediaBackground("../images/home/background-home-" + $type +".jpg");
+        &.Destination {
+            @include mediaBackground("../images/destination/background-destination-" + $type + ".jpg");
+        }
+    
+        &.Technology {
+            @include mediaBackground("../images/technology/background-technology-" + $type + ".jpg");
+        }
+    
+        &.Crew {
+            @include mediaBackground("../images/crew/background-crew-" + $type + ".jpg");
+        }
     }
+}
 
-    &.Technology {
-        background: url(../images/technology/background-technology-desktop.jpg);
-    }
+@media only screen and (max-width: $mobile) {
+    @include screenType("mobile");
+}
 
-    &.Crew {
-        background: url(../images/crew/background-crew-desktop.jpg);
-    }
+@media only screen and (min-width: $tablet) {
+    @include screenType("tablet")
+}
+
+@media only screen and (min-width: $desktop) {
+    @include screenType("desktop");
 }

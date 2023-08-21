@@ -1,8 +1,8 @@
 /*** Parameters ***/
 
-@import "../../../node_modules/@fontsource/barlow-condensed";
-@import "../../../node_modules/@fontsource/barlow";
-@import "../../../node_modules/@fontsource/bellefair";
+@import "../../../node_modules/@fontsource/barlow-condensed/400.css";
+@import "../../../node_modules/@fontsource/barlow/400.css";
+@import "../../../node_modules/@fontsource/bellefair/400.css";
 
 // Colors
 $color-black: #0B0D17;
@@ -12,7 +12,7 @@ $color-white: #FFF;
 // Media queries
 $desktop: 800px;
 $tablet: 600px;
-$mobile: 480px;
+$mobile: 599px;
 
 // Font Family
 $barlow: "barlow", serif;
