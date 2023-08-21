@@ -4,7 +4,8 @@
   "description": "A frontend mentor challenge where i have to build a website about space tourism.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "sass --watch assets/scss/style.scss assets/css/style.css"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,9 @@
     "sass": "^1.65.1"
   },
   "dependencies": {
+    "@fontsource/barlow": "^5.0.8",
+    "@fontsource/barlow-condensed": "^5.0.8",
+    "@fontsource/bellefair": "^5.0.8",
     "normalize.css": "^8.0.1"
   }
 }

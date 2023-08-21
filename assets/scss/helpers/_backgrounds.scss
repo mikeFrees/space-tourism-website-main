@@ -1,0 +1,16 @@
+@import "parameters";
+
+body {
+    background: cover url(../images/home/background-home-desktop.jpg);
+    &.Destination {
+        background: url(../images/destination/background-destination-desktop.jpg);
+    }
+
+    &.Technology {
+        background: url(../images/technology/background-technology-desktop.jpg);
+    }
+
+    &.Crew {
+        background: url(../images/crew/background-crew-desktop.jpg);
+    }
+}

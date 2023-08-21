@@ -1,0 +1,49 @@
+@import "parameters"; 
+
+h1 {
+    font: 400 150px/172px $bellefair;
+    color: $color-white;
+}
+
+h2 {
+    font: 400 100px/115px $bellefair;
+    color: $color-white;
+}
+
+h3 {
+    font: 400 56px/64px $bellefair;
+    color: $color-white;
+}
+
+h4 {
+    font: 400 32px/37px $bellefair;
+    color: $color-white;
+}
+
+h5 {
+    font: 400 28px/34px $barlow-condensed;
+    letter-spacing: 4.7px;
+    color: $color-gray;
+}
+
+body {
+    font: 400 18px/32px $barlow;
+    color: $color-white;
+}
+
+.subheading-1 {
+    font: 400 28px/32px $bellefair;
+    color: $color-white;
+}
+
+.subheading-2 {
+    font: 400 14px/17px $barlow-condensed;
+    letter-spacing: 2.4px;
+    color: $color-white;
+}
+
+nav, .nav {
+    font: 400 16px/19px $barlow-condensed;
+    letter-spacing: 2.7px;
+    color: $color-white;
+}
