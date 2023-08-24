@@ -1,0 +1,11 @@
+@media only screen and (max-width: $mobile) {
+    @include screenType("mobile");
+}
+
+@media only screen and (min-width: $tablet) {
+    @include screenType("tablet")
+}
+
+@media only screen and (min-width: $desktop) {
+    @include screenType("desktop");
+}
