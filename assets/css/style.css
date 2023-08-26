@@ -1,17 +1,111 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 5 | @import "./helpers/backgrounds";
- *   |         ^^^^^^^^^^^^^^^^^^^^^^^
- *   '
- *   assets\scss\main.scss 5:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 5 \2502  @import \"./helpers/backgrounds\";\d\a   \2502          ^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   assets\\scss\\main.scss 5:9  root stylesheet";
+/*** Parameters ***/
+@import "../../../node_modules/@fontsource/barlow-condensed/400.css";
+@import "../../../node_modules/@fontsource/barlow/400.css";
+@import "../../../node_modules/@fontsource/bellefair/400.css";
+h1 {
+  font: 400 150px/172px "bellefair", serif;
+  color: #FFF;
 }
+
+h2 {
+  font: 400 100px/115px "bellefair", serif;
+  color: #FFF;
+}
+
+h3 {
+  font: 400 56px/64px "bellefair", serif;
+  color: #FFF;
+}
+
+h4 {
+  font: 400 32px/37px "bellefair", serif;
+  color: #FFF;
+}
+
+h5 {
+  font: 400 28px/34px "barlow condensed", serif;
+  letter-spacing: 4.7px;
+  color: #D0D6F9;
+}
+
+body {
+  font: 400 18px/32px "barlow", serif;
+  color: #FFF;
+}
+
+.subheading-1 {
+  font: 400 28px/32px "bellefair", serif;
+  color: #FFF;
+}
+
+.subheading-2 {
+  font: 400 14px/17px "barlow condensed", serif;
+  letter-spacing: 2.4px;
+  color: #FFF;
+}
+
+nav, .nav {
+  font: 400 16px/19px "barlow condensed", serif;
+  letter-spacing: 2.7px;
+  color: #FFF;
+}
+
+@media only screen and (max-width: 599px) {
+  body {
+    height: 100vh;
+    background: center/cover no-repeat url("../images/home/background-home-mobile.jpg");
+  }
+  body.Destination {
+    background: center/cover no-repeat url("../images/destination/background-destination-mobile.jpg");
+  }
+  body.Technology {
+    background: center/cover no-repeat url("../images/technology/background-technology-mobile.jpg");
+  }
+  body.Crew {
+    background: center/cover no-repeat url("../images/crew/background-crew-mobile.jpg");
+  }
+}
+@media only screen and (min-width: 600px) {
+  body {
+    height: 100vh;
+    background: center/cover no-repeat url("../images/home/background-home-tablet.jpg");
+  }
+  body.Destination {
+    background: center/cover no-repeat url("../images/destination/background-destination-tablet.jpg");
+  }
+  body.Technology {
+    background: center/cover no-repeat url("../images/technology/background-technology-tablet.jpg");
+  }
+  body.Crew {
+    background: center/cover no-repeat url("../images/crew/background-crew-tablet.jpg");
+  }
+}
+@media only screen and (min-width: 800px) {
+  body {
+    height: 100vh;
+    background: center/cover no-repeat url("../images/home/background-home-desktop.jpg");
+  }
+  body.Destination {
+    background: center/cover no-repeat url("../images/destination/background-destination-desktop.jpg");
+  }
+  body.Technology {
+    background: center/cover no-repeat url("../images/technology/background-technology-desktop.jpg");
+  }
+  body.Crew {
+    background: center/cover no-repeat url("../images/crew/background-crew-desktop.jpg");
+  }
+}
+li {
+  display: inline-block;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+nav {
+  width: 83 rem;
+  height: 9.6 rem;
+  background-color: rgba(255, 255, 255, 0.04);
+}
+
+/*# sourceMappingURL=style.css.map */

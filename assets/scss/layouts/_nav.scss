@@ -1,0 +1,12 @@
+li {
+        display: inline-block;
+        list-style-type: none;
+        text-transform: uppercase;
+        font-weight: 700;
+}
+
+nav {
+    width: 83 rem;
+    height: 9.6 rem;
+    background-color: rgba($color: $color-white, $alpha: 0.04);
+}
