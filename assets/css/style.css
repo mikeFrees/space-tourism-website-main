@@ -2,6 +2,10 @@
 @import "../../../node_modules/@fontsource/barlow-condensed/400.css";
 @import "../../../node_modules/@fontsource/barlow/400.css";
 @import "../../../node_modules/@fontsource/bellefair/400.css";
+html {
+  font-size: 62.5%; /* (62.5/100) * 16px = 10px */
+}
+
 h1 {
   font: 400 150px/172px "bellefair", serif;
   color: #FFF;
@@ -96,16 +100,45 @@ nav, .nav {
   }
 }
 li {
-  display: inline-block;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  color: #FFF;
   list-style-type: none;
   text-transform: uppercase;
-  font-weight: 700;
+  height: 100%;
+}
+li:hover {
+  border-top: 3px transparent solid;
+  border-bottom: 3px rgba(255, 255, 255, 0.5) solid;
+}
+li.Active {
+  border-top: 3px transparent solid;
+  border-bottom: 3px #FFF solid;
+}
+li a {
+  color: #FFF;
+  text-decoration: none;
 }
 
 nav {
-  width: 83 rem;
-  height: 9.6 rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  width: 83rem;
+  height: 9.6rem;
   background-color: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(15px);
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 54.2rem;
+  height: 9.6rem;
 }
 
 /*# sourceMappingURL=style.css.map */

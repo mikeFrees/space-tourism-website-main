@@ -1,12 +1,45 @@
 li {
-        display: inline-block;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        color: $color-white;
         list-style-type: none;
         text-transform: uppercase;
-        font-weight: 700;
+        height: 100%;
+
+        &:hover {
+            border-top: 3px transparent solid;
+            border-bottom: 3px rgba($color: $color-white, $alpha: 0.5) solid;
+        }
+
+        &.Active {
+            border-top: 3px transparent solid;
+            border-bottom: 3px $color-white solid;
+        }
+
+        a {
+            color: $color-white;
+            text-decoration: none;
+        }
 }
 
 nav {
-    width: 83 rem;
-    height: 9.6 rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    width: 83rem;
+    height: 9.6rem;
     background-color: rgba($color: $color-white, $alpha: 0.04);
+    backdrop-filter: blur(15px);
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        width: 54.2rem;
+        height: 9.6rem;
+    }
 }
