@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    height: 9.6rem;
+    margin-top: 4rem;
+    margin-left: auto;
+    hr {
+        width: 40%;
+        margin-right: -5rem;
+        z-index: 2;
+        border-color: rgba($color: $color-white, $alpha: 0.25);
+    }
+
+    svg {
+        margin: 2.4rem  0rem;
+        margin-top: 3rem;
+    }
+}

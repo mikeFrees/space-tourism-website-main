@@ -6,6 +6,26 @@ html {
   font-size: 62.5%; /* (62.5/100) * 16px = 10px */
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 h1 {
   font: 400 150px/172px "bellefair", serif;
   color: #FFF;
@@ -139,6 +159,48 @@ nav ul {
   padding: 0;
   width: 54.2rem;
   height: 9.6rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  height: 9.6rem;
+  margin-top: 4rem;
+  margin-left: auto;
+}
+header hr {
+  width: 40%;
+  margin-right: -5rem;
+  z-index: 2;
+  border-color: rgba(255, 255, 255, 0.25);
+}
+header svg {
+  margin: 2.4rem 0rem;
+  margin-top: 3rem;
+}
+
+main {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 27.4rem;
+  height: 27.4rem;
+  background-color: #FFF;
+  border-radius: 50%;
+  float: right;
+  margin-bottom: 16.45rem;
+  margin-right: 16.45rem;
+}
+aside a {
+  font: 400 32px/37px "bellefair", serif;
+  color: #0B0D17;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=style.css.map */
