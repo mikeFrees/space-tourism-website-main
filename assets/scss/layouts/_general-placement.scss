@@ -1,0 +1,19 @@
+body {
+    display: grid;
+    grid-template: 
+                "header header"
+                "main aside";
+    align-items: end;
+    align-content: space-between;
+    justify-content: space-between;
+
+    header {
+        grid-area: header;
+    }
+    main {
+        grid-area: main;
+    }
+    aside {
+        grid-area: aside;
+    }
+}

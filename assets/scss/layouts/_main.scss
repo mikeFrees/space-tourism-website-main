@@ -1,4 +1,19 @@
 main {
-    float: left;
-    width: 50%;
+    display: inline-flex;
+    padding-right: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2.4rem;
+    width: 44.5rem;
+    height: 38.2rem;
+    margin: 16.5rem;
+
+    h1 {
+        text-transform: uppercase;
+    }
+
+    h5, p, h1 {
+        margin: 0;
+    }
 }
