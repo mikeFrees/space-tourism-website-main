@@ -7,6 +7,12 @@ body {
     align-content: space-between;
     justify-content: space-between;
 
+    &.Destination{
+        grid-template: 
+        "header header"
+        "aside main";
+    }
+
     header {
         grid-area: header;
     }

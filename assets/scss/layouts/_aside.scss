@@ -2,12 +2,13 @@ aside {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 27.4rem;
-    height: 27.4rem;
-    background-color: $color-white;
-    border-radius: 50%;
-    float:  right;
     margin: 16.5rem;
+    &.home {
+        background-color: $color-white;
+        border-radius: 50%;
+        width: 27.4rem;
+        height: 27.4rem;
+    }
     a {
         font: 400 32px/37px $bellefair;
         color: $color-black;
