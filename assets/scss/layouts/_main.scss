@@ -1,3 +1,13 @@
+body {
+    align-items: end;
+    align-content: space-between;
+    justify-content: space-between;
+
+    &.Destination {
+        padding-bottom: 10rem;
+    }
+}
+
 main {
     display: inline-flex;
     padding-right: 0px;
@@ -16,4 +26,43 @@ main {
     h5, p, h1 {
         margin: 0;
     }
+
+    &.destination {
+        display: flex;
+
+        & > div {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            column-gap: 6.8rem;
+            row-gap: 1.2rem;
+            width: 38rem;
+            height: 6.1rem;
+        }
+
+        h2 {
+            text-transform: uppercase;
+            padding: 0;
+            margin: 0;
+            padding-top: 2rem;
+        }
+
+        hr {
+            width: 44.4rem;
+            border-bottom: 2px solid;
+            border-color: rgba(56, 59, 75, 1);
+        }
+
+        p {
+            padding-bottom: 2rem;
+        }
+
+    }
+}
+
+.subheading-1 {
+    grid-row-start: 1;
+}
+.subheading-2 {
+    grid-row-start: 2;
 }

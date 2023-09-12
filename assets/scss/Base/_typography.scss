@@ -29,15 +29,21 @@ body {
     color: $color-white;
 }
 
-.subheading-1 {
-    font: 400 28px/32px $bellefair;
-    color: $color-white;
+p {
+    color: $color-gray;
 }
 
 .subheading-2 {
+    font: 400 28px/32px $bellefair;
+    color: $color-white;
+    text-transform: uppercase;
+}
+
+.subheading-1 {
     font: 400 14px/17px $barlow-condensed;
     letter-spacing: 2.4px;
-    color: $color-white;
+    color: $color-gray;
+    text-transform: uppercase;
 }
 
 nav, .nav {

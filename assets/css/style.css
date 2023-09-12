@@ -57,15 +57,21 @@ body {
   color: #FFF;
 }
 
-.subheading-1 {
-  font: 400 28px/32px "bellefair", serif;
-  color: #FFF;
+p {
+  color: #D0D6F9;
 }
 
 .subheading-2 {
+  font: 400 28px/32px "bellefair", serif;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+.subheading-1 {
   font: 400 14px/17px "barlow condensed", serif;
   letter-spacing: 2.4px;
-  color: #FFF;
+  color: #D0D6F9;
+  text-transform: uppercase;
 }
 
 nav, .nav {
@@ -160,6 +166,24 @@ nav ul {
   width: 54.2rem;
   height: 9.6rem;
 }
+nav.destination {
+  background-color: transparent;
+  backdrop-filter: none;
+  width: 28.6rem;
+  height: 3.4rem;
+  margin: 0;
+  padding: 0;
+}
+nav.destination ul {
+  height: 3.4rem;
+  width: 28.6rem;
+}
+nav.destination a:active {
+  color: #FFF;
+}
+nav.destination a {
+  color: #D0D6F9;
+}
 
 header {
   display: flex;
@@ -180,6 +204,15 @@ header svg {
   margin-top: 3rem;
 }
 
+body {
+  align-items: end;
+  align-content: space-between;
+  justify-content: space-between;
+}
+body.Destination {
+  padding-bottom: 10rem;
+}
+
 main {
   display: inline-flex;
   padding-right: 0px;
@@ -196,6 +229,40 @@ main h1 {
 }
 main h5, main p, main h1 {
   margin: 0;
+}
+main.destination {
+  display: flex;
+}
+main.destination > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 6.8rem;
+  row-gap: 1.2rem;
+  width: 38rem;
+  height: 6.1rem;
+}
+main.destination h2 {
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  padding-top: 2rem;
+}
+main.destination hr {
+  width: 44.4rem;
+  border-bottom: 2px solid;
+  border-color: rgb(56, 59, 75);
+}
+main.destination p {
+  padding-bottom: 2rem;
+}
+
+.subheading-1 {
+  grid-row-start: 1;
+}
+
+.subheading-2 {
+  grid-row-start: 2;
 }
 
 aside {

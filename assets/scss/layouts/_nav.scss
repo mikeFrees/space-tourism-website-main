@@ -42,4 +42,25 @@ nav {
         width: 54.2rem;
         height: 9.6rem;
     }
+
+    &.destination {
+        background-color: transparent;
+        backdrop-filter: none;
+        width: 28.6rem;
+        height: 3.4rem;
+        margin: 0;
+        padding: 0;
+
+        ul{
+            height: 3.4rem;
+            width: 28.6rem;
+        }
+
+        a:active {
+            color: $color-white;
+        }
+        a {
+            color: $color-gray;
+        }
+    }
 }
