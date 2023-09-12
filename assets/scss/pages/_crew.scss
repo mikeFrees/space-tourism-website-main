@@ -1,0 +1,71 @@
+body.Crew {
+    padding-bottom: 10rem;
+
+    aside {     //align picture to bottom of the page
+     margin: 0; 
+     width: 56.8rem;
+     height: 71.2rem;
+     padding-right: 16.5rem;
+     padding-top: 12.4rem
+    }
+
+    main {
+        padding-left: 16.5rem;
+        padding-top: 12.4rem;
+        display: flex;
+        margin: 0;
+        width: 50rem;
+        height: 71.2rem;
+        h5 {
+            margin-bottom: auto;
+            display: inline-flex;
+            gap: 2.8rem;
+            padding: 0px;
+            color: $color-white;
+            span {
+                opacity: 0.25;
+                font-weight: 700;
+            }
+            text-transform: uppercase;
+        }
+        h4 {
+            opacity: 0.5;
+            text-transform: uppercase;
+            margin: 0;
+        }
+
+        h3 {
+            text-transform: uppercase;
+            margin: 0;
+        }
+        nav {
+            margin-top: auto;
+            background-color: transparent;
+            width: 13.2rem;
+            height: 1.5rem;
+        }
+        p {
+            width: 44.4rem;
+        }
+    .dot {
+        height: 1.5rem;
+        width: 1.5rem;
+        background-color: $color-gray;
+        border-radius: 50%;
+        display: inline-block;
+        opacity: 0.5;
+      }
+    li:hover {
+        opacity: 0.17;
+        border-top: 3px transparent solid;
+        border-bottom: 3px transparent solid;
+    }
+    li.Active {
+        &:hover {
+            opacity: 1;
+        }
+        background-color: $color-white;
+        opacity: 1;
+    }
+    }
+}

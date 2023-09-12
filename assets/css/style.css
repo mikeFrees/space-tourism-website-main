@@ -305,9 +305,6 @@ body aside {
 
 body.Destination {
   width: 100%;
-  align-items: center;
-  align-content: space-between;
-  justify-items: center;
 }
 body.Destination main nav {
   background-color: transparent;
@@ -336,6 +333,75 @@ body.Destination aside h5 span {
 body.Destination aside picture {
   padding-left: 6.4rem;
   padding-top: 5rem;
+}
+
+body.Crew {
+  padding-bottom: 10rem;
+}
+body.Crew aside {
+  margin: 0;
+  width: 56.8rem;
+  height: 71.2rem;
+  padding-right: 16.5rem;
+  padding-top: 12.4rem;
+}
+body.Crew main {
+  padding-left: 16.5rem;
+  padding-top: 12.4rem;
+  display: flex;
+  margin: 0;
+  width: 50rem;
+  height: 71.2rem;
+}
+body.Crew main h5 {
+  margin-bottom: auto;
+  display: inline-flex;
+  gap: 2.8rem;
+  padding: 0px;
+  color: #FFF;
+  text-transform: uppercase;
+}
+body.Crew main h5 span {
+  opacity: 0.25;
+  font-weight: 700;
+}
+body.Crew main h4 {
+  opacity: 0.5;
+  text-transform: uppercase;
+  margin: 0;
+}
+body.Crew main h3 {
+  text-transform: uppercase;
+  margin: 0;
+}
+body.Crew main nav {
+  margin-top: auto;
+  background-color: transparent;
+  width: 13.2rem;
+  height: 1.5rem;
+}
+body.Crew main p {
+  width: 44.4rem;
+}
+body.Crew main .dot {
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: #D0D6F9;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+body.Crew main li:hover {
+  opacity: 0.17;
+  border-top: 3px transparent solid;
+  border-bottom: 3px transparent solid;
+}
+body.Crew main li.Active {
+  background-color: #FFF;
+  opacity: 1;
+}
+body.Crew main li.Active:hover {
+  opacity: 1;
 }
 
 /*# sourceMappingURL=style.css.map */
