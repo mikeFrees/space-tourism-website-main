@@ -15,5 +15,9 @@ header {
     svg {
         margin: 2.4rem  0rem;
         margin-top: 3rem;
+
+        &.home {
+            margin-top: 2.2rem;
+        }
     }
 }

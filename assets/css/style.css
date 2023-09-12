@@ -203,6 +203,9 @@ header svg {
   margin: 2.4rem 0rem;
   margin-top: 3rem;
 }
+header svg.home {
+  margin-top: 2.2rem;
+}
 
 body {
   align-items: end;
@@ -402,6 +405,62 @@ body.Crew main li.Active {
 }
 body.Crew main li.Active:hover {
   opacity: 1;
+}
+
+body.Technology main {
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 13.7rem;
+}
+body.Technology main h5 {
+  grid-row: 1/3;
+  grid-column: 1/2;
+  display: inline-flex;
+  width: 30rem;
+  height: 3.5rem;
+  gap: 2.8rem;
+  padding: 0px;
+  color: #FFF;
+  text-transform: uppercase;
+}
+body.Technology main h5 span {
+  opacity: 0.25;
+  font-weight: 700;
+}
+body.Technology main a {
+  text-align: center;
+  font: 400 32px/37px "bellefair", serif;
+}
+body.Technology main section {
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+body.Technology main nav {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  background-color: transparent;
+  filter: none;
+  width: 8rem;
+  height: 30.5rem;
+}
+body.Technology main ul {
+  display: flex;
+  flex-direction: column;
+  width: 8rem;
+  height: 30.5rem;
+}
+body.Technology main ul li {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  justify-content: center;
+}
+body.Technology main ul li.Active {
+  font: 400 32px/37px "bellefair", serif;
+  background-color: #FFF;
+  color: #0B0D17;
 }
 
 /*# sourceMappingURL=style.css.map */
