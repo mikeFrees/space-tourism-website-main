@@ -14,7 +14,6 @@ This is a solution to the [Space tourism website challenge on Frontend Mentor](h
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -29,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ### Links
 
@@ -44,7 +43,7 @@ Users should be able to:
 - scss
 - 7 - 1 file structure scss
 - CSS Grid
-- ...
+- postcss
 
 ### What I learned
 
@@ -92,7 +91,11 @@ $mobile: 599px;
 
 ### Continued development
 
+I feel the need to structure my code better. At the beginning everything is clear but as i continue to work on a project my view of the whole gets fuzzy and i sometimes get lost in the whole. I will try to find a workflow to follow and a clear structure for my css in the future(Learn about the BEM architecture for CSS).
 
+I ended this challenge with only the desktop version finished because i spent too long on this project and started to feel like i was stuck in place. I will come back to it later to continue the tablet and phone versions.
+
+I need to try and comment my code more and commit earlier with small adjustments each time.
 
 ### Useful resources
 
@@ -102,10 +105,4 @@ $mobile: 599px;
 
 - LinkedIn - [Frees Mike](https://www.linkedin.com/in/mike-frees/)
 - Frontend Mentor Profile - [Mike Frees](https://www.frontendmentor.io/profile/mikeFrees)
-
-## Acknowledgments
-
-A big thanks to the folliwing people who wrote helpfull articles, gave helpfull comments or helped me in any other way.
-
-- Pat Gerke - author of 7 to 1 pattern for a manageable codebase resource
 
